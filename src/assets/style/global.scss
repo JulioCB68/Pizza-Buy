@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8f8f8;
+  color: #29292e;
+}
+
+body, input, button, textarea {
+  font: 400 16px 'Roboto', sans-serif;
+}
+
+:root {
+  --Orange: #F09416;
+  --OrangeLinearGradient: linear-gradient( #F9C727 100%, #F09416 100% );
+  --Black: #242D49;
+  --BackgroundAside: #FAFAF8;
+}
+

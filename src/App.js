@@ -1,10 +1,13 @@
-import React from 'react'
+import React from "react";
+
+import './assets/style/global.scss';
+import styles from './assets/style/Home.module.scss';
 
 function App() {
   return (
-    <>
-      <h1> Hello Pizza </h1>
-    </>
+    <div className={styles.container}>
+      Oi
+    </div>
   );
 }
 
